@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carona Compartilhada</title>
+    <link rel="stylesheet" href="./csse/style.css">
+</head>
+<body>
+    <header>
+        <h1>Carona Compartilhada</h1>
+    </header>
+    <main>
+        <section class="search">
+            <h2>Encontrar uma Carona</h2>
+            <form id="searchForm">
+                <input type="text" id="origin" placeholder="Origem">
+                <input type="text" id="destination" placeholder="Destino">
+                <input type="date" id="date" placeholder="Data">
+                <button type="submit">Buscar</button>
+            </form>
+            <div id="searchResults">
+                <!-- Resultados da busca serão exibidos aqui -->
+            </div>
+        </section>
+        <section class="offer">
+            <h2>Oferecer uma Carona</h2>
+            <form id="offerForm">
+                <input type="text" id="offerOrigin" placeholder="Origem">
+                <input type="text" id="offerDestination" placeholder="Destino">
+                <input type="date" id="offerDate" placeholder="Data">
+                <input type="number" id="seatsAvailable" placeholder="Vagas disponíveis">
+                <button type="submit">Oferecer Carona</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;JV Caronas Compartilhadas</p>
+    </footer>
+    <script src="./javascript/func.js"></script>
+</body>
+</html>
